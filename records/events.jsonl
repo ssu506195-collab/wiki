@@ -1,0 +1,7 @@
+{"time": "2026-11-17T04:51:38.736223+00:00", "stage": "ingest", "status": "pass", "detail": {"independent_sources": 8, "wiki_notes": 8, "claims": 12, "note": "匯入的是查讀後的來源筆記與 AI 整理結果；非原文鏡像。"}}
+{"time": "2026-11-17T04:51:40.262081+00:00", "stage": "wiki_retrieval", "status": "pass", "detail": {"queries": 8, "covered_notes": 8, "note": "LLM 在本次對話整理；這裡實際執行關鍵詞檢索與來源覆蓋檢查。"}}
+{"time": "2026-11-17T04:51:41.869193+00:00", "stage": "outline_citation_check", "status": "needs_revision", "detail": {"errors": 14, "category": "missing_wiki_claim_mapping"}}
+{"time": "2026-11-17T04:51:41.971154+00:00", "stage": "outline_citation_check", "status": "pass", "detail": {"errors": 0}}
+{"time": "2026-11-17T04:51:42.120044+00:00", "stage": "html_build", "status": "pass", "detail": {"slides": 15, "wiki_pages": 9, "source_pages": 1}}
+{"time": "2026-11-17T04:54:01.150853+00:00", "stage": "outline_citation_check", "status": "pass", "detail": {"errors": 0}}
+{"time": "2026-11-17T04:54:01.308530+00:00", "stage": "html_build", "status": "pass", "detail": {"slides": 15, "wiki_pages": 9, "source_pages": 1}}

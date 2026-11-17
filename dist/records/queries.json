@@ -1,0 +1,336 @@
+[
+  {
+    "time": "2026-11-17T04:51:40.249283+00:00",
+    "query": "模態 自由振動 用途",
+    "method": "tag-weighted keyword retrieval; no vector database or live LLM API",
+    "results": [
+      {
+        "wiki": "what-is-modal",
+        "score": 9,
+        "claims": [
+          "C01"
+        ],
+        "sources": [
+          "S01",
+          "S04"
+        ]
+      },
+      {
+        "wiki": "eigenproblem",
+        "score": 1,
+        "claims": [
+          "C09"
+        ],
+        "sources": [
+          "S02"
+        ]
+      },
+      {
+        "wiki": "mode-shape",
+        "score": 1,
+        "claims": [
+          "C04",
+          "C05",
+          "C12"
+        ],
+        "sources": [
+          "S02",
+          "S03"
+        ]
+      },
+      {
+        "wiki": "model-checks",
+        "score": 1,
+        "claims": [
+          "C10",
+          "C11"
+        ],
+        "sources": [
+          "S01",
+          "S06"
+        ]
+      },
+      {
+        "wiki": "normalization",
+        "score": 1,
+        "claims": [
+          "C07"
+        ],
+        "sources": [
+          "S02",
+          "S08"
+        ]
+      },
+      {
+        "wiki": "supports",
+        "score": 1,
+        "claims": [
+          "C06"
+        ],
+        "sources": [
+          "S05"
+        ]
+      }
+    ]
+  },
+  {
+    "time": "2026-11-17T04:51:40.256079+00:00",
+    "query": "固有頻率 週期 彈簧 質量 剛性",
+    "method": "tag-weighted keyword retrieval; no vector database or live LLM API",
+    "results": [
+      {
+        "wiki": "natural-frequency",
+        "score": 15,
+        "claims": [
+          "C02",
+          "C03"
+        ],
+        "sources": [
+          "S07"
+        ]
+      },
+      {
+        "wiki": "model-checks",
+        "score": 2,
+        "claims": [
+          "C10",
+          "C11"
+        ],
+        "sources": [
+          "S01",
+          "S06"
+        ]
+      },
+      {
+        "wiki": "mode-shape",
+        "score": 1,
+        "claims": [
+          "C04",
+          "C05",
+          "C12"
+        ],
+        "sources": [
+          "S02",
+          "S03"
+        ]
+      },
+      {
+        "wiki": "resonance",
+        "score": 1,
+        "claims": [
+          "C08"
+        ],
+        "sources": [
+          "S04"
+        ]
+      },
+      {
+        "wiki": "what-is-modal",
+        "score": 1,
+        "claims": [
+          "C01"
+        ],
+        "sources": [
+          "S01",
+          "S04"
+        ]
+      }
+    ]
+  },
+  {
+    "time": "2026-11-17T04:51:40.256079+00:00",
+    "query": "振型 節點 懸臂樑",
+    "method": "tag-weighted keyword retrieval; no vector database or live LLM API",
+    "results": [
+      {
+        "wiki": "mode-shape",
+        "score": 9,
+        "claims": [
+          "C04",
+          "C05",
+          "C12"
+        ],
+        "sources": [
+          "S02",
+          "S03"
+        ]
+      },
+      {
+        "wiki": "model-checks",
+        "score": 1,
+        "claims": [
+          "C10",
+          "C11"
+        ],
+        "sources": [
+          "S01",
+          "S06"
+        ]
+      },
+      {
+        "wiki": "normalization",
+        "score": 1,
+        "claims": [
+          "C07"
+        ],
+        "sources": [
+          "S02",
+          "S08"
+        ]
+      },
+      {
+        "wiki": "what-is-modal",
+        "score": 1,
+        "claims": [
+          "C01"
+        ],
+        "sources": [
+          "S01",
+          "S04"
+        ]
+      }
+    ]
+  },
+  {
+    "time": "2026-11-17T04:51:40.256079+00:00",
+    "query": "拘束 近零頻率 剛體",
+    "method": "tag-weighted keyword retrieval; no vector database or live LLM API",
+    "results": [
+      {
+        "wiki": "supports",
+        "score": 9,
+        "claims": [
+          "C06"
+        ],
+        "sources": [
+          "S05"
+        ]
+      },
+      {
+        "wiki": "model-checks",
+        "score": 1,
+        "claims": [
+          "C10",
+          "C11"
+        ],
+        "sources": [
+          "S01",
+          "S06"
+        ]
+      }
+    ]
+  },
+  {
+    "time": "2026-11-17T04:51:40.256079+00:00",
+    "query": "正規化 振幅 顯示倍率",
+    "method": "tag-weighted keyword retrieval; no vector database or live LLM API",
+    "results": [
+      {
+        "wiki": "normalization",
+        "score": 9,
+        "claims": [
+          "C07"
+        ],
+        "sources": [
+          "S02",
+          "S08"
+        ]
+      },
+      {
+        "wiki": "resonance",
+        "score": 1,
+        "claims": [
+          "C08"
+        ],
+        "sources": [
+          "S04"
+        ]
+      },
+      {
+        "wiki": "what-is-modal",
+        "score": 1,
+        "claims": [
+          "C01"
+        ],
+        "sources": [
+          "S01",
+          "S04"
+        ]
+      }
+    ]
+  },
+  {
+    "time": "2026-11-17T04:51:40.256079+00:00",
+    "query": "共振 阻尼 激振",
+    "method": "tag-weighted keyword retrieval; no vector database or live LLM API",
+    "results": [
+      {
+        "wiki": "resonance",
+        "score": 9,
+        "claims": [
+          "C08"
+        ],
+        "sources": [
+          "S04"
+        ]
+      },
+      {
+        "wiki": "what-is-modal",
+        "score": 2,
+        "claims": [
+          "C01"
+        ],
+        "sources": [
+          "S01",
+          "S04"
+        ]
+      },
+      {
+        "wiki": "eigenproblem",
+        "score": 1,
+        "claims": [
+          "C09"
+        ],
+        "sources": [
+          "S02"
+        ]
+      }
+    ]
+  },
+  {
+    "time": "2026-11-17T04:51:40.256079+00:00",
+    "query": "特徵值 矩陣 角頻率",
+    "method": "tag-weighted keyword retrieval; no vector database or live LLM API",
+    "results": [
+      {
+        "wiki": "eigenproblem",
+        "score": 9,
+        "claims": [
+          "C09"
+        ],
+        "sources": [
+          "S02"
+        ]
+      }
+    ]
+  },
+  {
+    "time": "2026-11-17T04:51:40.256079+00:00",
+    "query": "Workbench 網格 收斂 結果",
+    "method": "tag-weighted keyword retrieval; no vector database or live LLM API",
+    "results": [
+      {
+        "wiki": "model-checks",
+        "score": 12,
+        "claims": [
+          "C10",
+          "C11"
+        ],
+        "sources": [
+          "S01",
+          "S06"
+        ]
+      }
+    ]
+  }
+]

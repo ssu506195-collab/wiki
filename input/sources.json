@@ -1,0 +1,90 @@
+[
+  {
+    "id": "S01",
+    "title": "ANSYS Mechanical — Modal Analysis",
+    "author": "Ansys",
+    "version": "2024 R2",
+    "url": "https://ansyshelp.ansys.com/public/Views/Secured/corp/v242/en/wb_sim/ds_modal_analysis_type.html",
+    "locator": "Introduction；Preparing the Analysis；Analysis Settings",
+    "ref": "turn950836603view0",
+    "scope": "模態分析用途、質量與剛性需求、Workbench 模態設定",
+    "note": "模態分析取得結構的固有頻率與振型，可接續其他動態分析。材料需提供質量與剛性；Mechanical 的模態分析也有阻尼與預應力等進階選項，本教學只採基本無阻尼模型。"
+  },
+  {
+    "id": "S02",
+    "title": "ANSYS Theory Reference — 15.3 Modal Analysis",
+    "author": "Ansys",
+    "version": "2024 R2",
+    "url": "https://ansyshelp.ansys.com/public/Views/Secured/corp/v242/en/ans_thry/thy_anproc3.html",
+    "locator": "15.3.1–15.3.2；式 15–49 至 15–54",
+    "ref": "turn950836603view1",
+    "scope": "無阻尼特徵值問題、Hz 與 rad/s、振型正規化",
+    "note": "在剛性與質量固定、無時變外力的線性無阻尼模型中，自由振動形成特徵值問題。特徵向量描述振型，尺度可選正規化方式；固有角頻率需除以 2π 才成為 Hz。"
+  },
+  {
+    "id": "S03",
+    "title": "Vibrations of Cantilever Beams",
+    "author": "Scott Whitney / University of Nebraska–Lincoln",
+    "version": "1999；梁理論",
+    "url": "https://emweb.unl.edu/Mechanics-Pages/Scott-Whitney/325hweb/Beams.htm",
+    "locator": "Vibrations of Beams；式 6–12；Figure 3–5",
+    "ref": "turn950836603view2",
+    "scope": "細長均勻懸臂樑的邊界條件與彎曲振型",
+    "note": "Euler–Bernoulli 懸臂樑的固定端位移及斜率為零，自由端彎矩與剪力為零。不同特徵根產生不同彎曲振型；實際運動可由多個模態組合，係數取決於初始條件。"
+  },
+  {
+    "id": "S04",
+    "title": "The Physics of Waves — Chapter 2",
+    "author": "Howard Georgi / MIT OpenCourseWare",
+    "version": "MIT 8.03SC；2016 課程教材",
+    "url": "https://ocw.mit.edu/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/ef731c1b91d77a6db003f6c27e300d25_MIT8_03SCF16_Textbook.pdf",
+    "locator": "Chapter 2, §2.2；書內頁 42–44；式 2.14–2.24",
+    "ref": "turn950836603view3",
+    "scope": "外力頻率、阻尼與穩態受迫振動",
+    "note": "外力驅動頻率與系統固有頻率不同。穩態振幅由外力、慣性、剛性及阻尼共同決定；小阻尼時可能在固有頻率附近出現明顯放大，不能只憑模態頻率推論實際位移。"
+  },
+  {
+    "id": "S05",
+    "title": "ANSYS Structural Analysis Guide — Applying Loads and Obtaining the Solution",
+    "author": "Ansys",
+    "version": "2024 R2；Mechanical APDL 文件",
+    "url": "https://ansyshelp.ansys.com/public/Views/Secured/corp/v242/en/ans_str/Hlp_G_STR3_6.html",
+    "locator": "3.4.3 Apply Loads",
+    "ref": "turn950836603view4",
+    "scope": "拘束與剛體模態的物理意義；不作 Workbench 選單來源",
+    "note": "未拘束方向可出現零頻率剛體模態。一般模態問題中，拘束改變允許的自由度；一般外力不直接當成受迫振幅輸入。預應力產生的剛性效應另有處理方式。"
+  },
+  {
+    "id": "S06",
+    "title": "ANSYS Mechanical — Using Adaptive Convergence",
+    "author": "Ansys",
+    "version": "2024 R2",
+    "url": "https://ansyshelp.ansys.com/public/Views/Secured/corp/v242/en/wb_sim/ds_Convergence.html",
+    "locator": "Converged Results Control；Notes About Accuracy",
+    "ref": "turn950836603view5",
+    "scope": "結果比較與網格細化；不提供通用的模態收斂門檻",
+    "note": "細化網格後應比較指定結果的變化，並考慮功能適用限制。增加幾何離散精度不能修正錯誤材料或邊界。本教學採手動頻率與振型追蹤，不將軟體預設容許變化當作通用標準。"
+  },
+  {
+    "id": "S07",
+    "title": "University Physics Volume 1 — 15.1 Simple Harmonic Motion",
+    "author": "William Moebs, Samuel J. Ling, Jeff Sanny / OpenStax",
+    "version": "2016 教科書；通用物理",
+    "url": "https://openstax.org/books/university-physics-volume-1/pages/15-1-simple-harmonic-motion",
+    "locator": "The Period and Frequency of a Mass on a Spring；式 15.9–15.11",
+    "ref": "turn571647357view0",
+    "scope": "單自由度彈簧質量系統、週期與頻率",
+    "note": "無摩擦線性彈簧質量系統滿足 m x¨ + kx = 0。其固有頻率由 k 與 m 決定，f = sqrt(k/m)/(2π)，而 f = 1/T。此模型中改變初始振幅不改變固有頻率。"
+  },
+  {
+    "id": "S08",
+    "title": "ANSYS Mechanical — Context Tabs / Scaling Menus",
+    "author": "Ansys",
+    "version": "2024 R2",
+    "url": "https://ansyshelp.ansys.com/public/Views/Secured/corp/v242/en/wb_sim/ds_Context_Toolbar.html",
+    "locator": "Result Context Tab → Deformation Scale Menu；Modal scaling notes",
+    "ref": "turn571647357view1",
+    "scope": "模態顯示倍率與真實變形的區別",
+    "note": "結果工具列可調整顯示變形倍率。模態分析的 True Scale 不能解釋成真實受迫變形；Auto Scale 用於看清形狀。調整畫面放大倍率不等於改變模型的固有頻率。"
+  }
+]

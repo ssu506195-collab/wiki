@@ -1,0 +1,10 @@
+{
+  "time": "2026-11-17T04:54:02.094490+00:00",
+  "status": "pass",
+  "html_pages": 12,
+  "local_urls": 317,
+  "independent_ingested_sources": 8,
+  "slides": 15,
+  "claim_mapping_errors": 0,
+  "scope": "Structural checks only, not semantic or ANSYS verification"
+}

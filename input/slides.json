@@ -1,0 +1,206 @@
+[
+  {
+    "id": "start",
+    "title": "模態分析觀念入門",
+    "type": "cover",
+    "wiki": [
+      "what-is-modal"
+    ],
+    "claims": [
+      "C01"
+    ],
+    "eyebrow": "認識固有頻率與振型",
+    "text": "對象：初學者。動畫與曲線都是解析示意，非 ANSYS 求解結果。"
+  },
+  {
+    "id": "questions",
+    "title": "模態分析回答什麼？",
+    "type": "contrast",
+    "wiki": [
+      "what-is-modal",
+      "mode-shape"
+    ],
+    "claims": [
+      "C01",
+      "C04"
+    ],
+    "eyebrow": "先分清問題",
+    "text": "固有頻率告訴我們振多快；振型告訴我們各位置如何相對運動。"
+  },
+  {
+    "id": "frequency",
+    "title": "固有頻率與週期",
+    "type": "frequency",
+    "wiki": [
+      "natural-frequency"
+    ],
+    "claims": [
+      "C02",
+      "C03"
+    ],
+    "eyebrow": "每秒振幾次",
+    "text": "週期 T 是一圈花的時間；頻率 f 是一秒幾圈。"
+  },
+  {
+    "id": "mass-stiffness",
+    "title": "質量與剛性如何影響頻率",
+    "type": "factors",
+    "wiki": [
+      "natural-frequency"
+    ],
+    "claims": [
+      "C03"
+    ],
+    "eyebrow": "一次只改一個因素",
+    "text": "在單自由度模型中，固定質量時增剛性會提高頻率；固定剛性時增質量會降低頻率。"
+  },
+  {
+    "id": "shapes",
+    "title": "同一支樑，有不同振型",
+    "type": "shapes",
+    "wiki": [
+      "mode-shape"
+    ],
+    "claims": [
+      "C04",
+      "C05"
+    ],
+    "eyebrow": "不只一種振動形狀",
+    "text": "這裡只看同方向的前三個彎曲振型，不是三維 ANSYS 模態的固定排序。"
+  },
+  {
+    "id": "nodes",
+    "title": "節點：振動中的不動位置",
+    "type": "nodes",
+    "wiki": [
+      "mode-shape"
+    ],
+    "claims": [
+      "C05",
+      "C12"
+    ],
+    "eyebrow": "找出形狀的分界",
+    "text": "位移節點在振型中保持零位移；固定端不算內部節點。"
+  },
+  {
+    "id": "supports",
+    "title": "拘束與接近零頻率",
+    "type": "supports",
+    "wiki": [
+      "supports"
+    ],
+    "claims": [
+      "C06"
+    ],
+    "eyebrow": "模型允許怎麼動",
+    "text": "自由模型可以有合理的剛體模態；預期固定卻整體漂移時，應檢查支撐與連接。"
+  },
+  {
+    "id": "scale",
+    "title": "顯示振幅不是實際振幅",
+    "type": "scale",
+    "wiki": [
+      "normalization"
+    ],
+    "claims": [
+      "C07"
+    ],
+    "eyebrow": "看懂動畫的尺度",
+    "text": "φ 與非零倍數 aφ 可表示相同振型；畫面放大不會改變固有頻率。"
+  },
+  {
+    "id": "resonance",
+    "title": "固有頻率與共振",
+    "type": "resonance",
+    "wiki": [
+      "resonance"
+    ],
+    "claims": [
+      "C08"
+    ],
+    "eyebrow": "外力頻率也要看",
+    "text": "r = 激振頻率 / 固有頻率。阻尼與外力耦合會影響放大，不能只憑 fn 推論實際位移。"
+  },
+  {
+    "id": "math",
+    "title": "模態方程的四個符號",
+    "type": "math",
+    "wiki": [
+      "eigenproblem"
+    ],
+    "claims": [
+      "C09"
+    ],
+    "eyebrow": "最小數學背景",
+    "text": "先辨識質量、剛性、振型與角頻率，不需要先手算大型矩陣。"
+  },
+  {
+    "id": "workbench",
+    "title": "在 Workbench 裡看什麼",
+    "type": "workbench",
+    "wiki": [
+      "model-checks"
+    ],
+    "claims": [
+      "C10"
+    ],
+    "eyebrow": "把觀念對回軟體",
+    "text": "材料提供質量與剛性；支撐與連接定義允許的運動。操作示例以 2024 R2 為準。"
+  },
+  {
+    "id": "mesh",
+    "title": "網格檢查比較的是什麼",
+    "type": "mesh",
+    "wiki": [
+      "model-checks"
+    ],
+    "claims": [
+      "C11"
+    ],
+    "eyebrow": "追蹤同一個物理振型",
+    "text": "保持幾何、材料與拘束一致；先比形狀，再比較頻率。"
+  },
+  {
+    "id": "practice",
+    "title": "三個結果判讀練習",
+    "type": "practice",
+    "wiki": [
+      "supports",
+      "normalization",
+      "model-checks"
+    ],
+    "claims": [
+      "C06",
+      "C07",
+      "C11"
+    ],
+    "eyebrow": "先想，再展開說明",
+    "text": "觀察模型假設與形狀，比只記一個數字更有用。"
+  },
+  {
+    "id": "takeaways",
+    "title": "看模態結果的閱讀順序",
+    "type": "takeaways",
+    "wiki": [
+      "what-is-modal",
+      "normalization",
+      "model-checks"
+    ],
+    "claims": [
+      "C01",
+      "C07",
+      "C11"
+    ],
+    "eyebrow": "把觀念帶走",
+    "text": "先確認模型，再看頻率與振型，最後檢查尺度與網格。"
+  },
+  {
+    "id": "references",
+    "title": "繼續查閱與資料來源",
+    "type": "references",
+    "wiki": [],
+    "claims": [],
+    "eyebrow": "回到 Wiki",
+    "text": "8 篇資料 → 8 個互連條目 → 15 頁教學簡報。"
+  }
+]

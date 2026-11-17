@@ -1,0 +1,79 @@
+{
+  "time": "2026-11-17T04:51:41.865233+00:00",
+  "input": "input/outline-first-pass.json",
+  "error_count": 14,
+  "errors": [
+    {
+      "slide": "start",
+      "category": "missing_wiki_claim_mapping",
+      "message": "教學初稿尚未建立 Wiki／知識句對照"
+    },
+    {
+      "slide": "questions",
+      "category": "missing_wiki_claim_mapping",
+      "message": "教學初稿尚未建立 Wiki／知識句對照"
+    },
+    {
+      "slide": "frequency",
+      "category": "missing_wiki_claim_mapping",
+      "message": "教學初稿尚未建立 Wiki／知識句對照"
+    },
+    {
+      "slide": "mass-stiffness",
+      "category": "missing_wiki_claim_mapping",
+      "message": "教學初稿尚未建立 Wiki／知識句對照"
+    },
+    {
+      "slide": "shapes",
+      "category": "missing_wiki_claim_mapping",
+      "message": "教學初稿尚未建立 Wiki／知識句對照"
+    },
+    {
+      "slide": "nodes",
+      "category": "missing_wiki_claim_mapping",
+      "message": "教學初稿尚未建立 Wiki／知識句對照"
+    },
+    {
+      "slide": "supports",
+      "category": "missing_wiki_claim_mapping",
+      "message": "教學初稿尚未建立 Wiki／知識句對照"
+    },
+    {
+      "slide": "scale",
+      "category": "missing_wiki_claim_mapping",
+      "message": "教學初稿尚未建立 Wiki／知識句對照"
+    },
+    {
+      "slide": "resonance",
+      "category": "missing_wiki_claim_mapping",
+      "message": "教學初稿尚未建立 Wiki／知識句對照"
+    },
+    {
+      "slide": "math",
+      "category": "missing_wiki_claim_mapping",
+      "message": "教學初稿尚未建立 Wiki／知識句對照"
+    },
+    {
+      "slide": "workbench",
+      "category": "missing_wiki_claim_mapping",
+      "message": "教學初稿尚未建立 Wiki／知識句對照"
+    },
+    {
+      "slide": "mesh",
+      "category": "missing_wiki_claim_mapping",
+      "message": "教學初稿尚未建立 Wiki／知識句對照"
+    },
+    {
+      "slide": "practice",
+      "category": "missing_wiki_claim_mapping",
+      "message": "教學初稿尚未建立 Wiki／知識句對照"
+    },
+    {
+      "slide": "takeaways",
+      "category": "missing_wiki_claim_mapping",
+      "message": "教學初稿尚未建立 Wiki／知識句對照"
+    }
+  ],
+  "status": "needs_mapping",
+  "purpose": "實際檢查初稿，未刻意加入錯誤物理敘述"
+}

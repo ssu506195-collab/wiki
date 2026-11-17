@@ -1,0 +1,6 @@
+{
+  "status": "not_completed",
+  "time": "2026-11-17T07:26:55.196Z",
+  "reason": "Browser preview could not start; connection closed twice. Desktop/mobile visual and interaction QA remain unverified.",
+  "attempts": 2
+}
